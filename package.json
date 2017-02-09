@@ -45,8 +45,8 @@
 
   },
   "dependencies": {
-    "@opam/merlin": "^2.5.0",
-    "reason": "andreypopp/reason#esy",
+    "@opam-alpha/merlin": "^2.5.0",
+    "reason": "facebook/reason#esy",
     "ocaml": "esy-ocaml/ocaml#esy",
     "fastrealpath": "andreypopp/fastrealpath#esy"
   },

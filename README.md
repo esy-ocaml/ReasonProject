@@ -1,5 +1,27 @@
 # ReasonProject
 
+# READ THE FOLLOWING MESSAGE FIRST:
+
+> This is an early verion of the `ReasonProject` on [`esy`](https://github.com/reasonml/esy#esy-yarn-fork-for-native-compilation-with-sandboxing).
+> The instructions below are for the `npm` version of this project.
+> `esy` is in flux and will hopefully be fully integrated into `npm` so
+> that you don't need to install `esy` at all. But for now, to test this
+> project out on the bleeding edge of `esy`:
+> ```
+> # Install esy https://github.com/reasonml/esy#install
+> git clone https://github.com/esy-ocaml/ReasonProject.git
+> cd ReasonProject
+> esy install
+> esy build
+> ```
+
+Then the majority of the rest of this document will be somewhat relevant.
+However, to run commands within the project environment, do `esy cmd` instead
+of `npm run cmd`.
+
+
+# ORIGINAL `README`:
+
 Installation of [`Reason`](http://facebook.github.io/reason/) project and
 development environments via `npm`.
 
